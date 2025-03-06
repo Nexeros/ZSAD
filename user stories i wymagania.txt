@@ -1,0 +1,23 @@
+User Stories:
+
+"Jako operator systemu ZSAD chcę mieć możliwość monitorowania decyzji podejmowanych przez AI w czasie rzeczywistym, aby analizować strategię odpowiedzi."
+
+"Jako analityk bezpieczeństwa chcę mieć dostęp do logów decyzji podejmowanych przez AI, aby badać potencjalne anomalie i optymalizować strategie systemu."
+
+
+Wymagania funkcjonalne:
+
+    System powinien identyfikować zagrożenia na podstawie analizy danych, przykładowo obrazów satelitarnych
+    System będzie analizował sytuacje używając sztucznej inteligencji i podejmie decyzje autonomicznie.
+    Każdy węzeł systemu będzie zawierał cząstkowy obraz sytuacji i będzie się komunikował z pozostałymi węzłami.
+    System w razie potrzeby aktywuje środki obronne.
+
+Wymagania niefunkcjonalne:
+
+    Czas reakcji systemu powinien wynosić nie więcej niż 1 sekundę.
+    Komunikacja między węzłami zostanie zaszyfrowana.
+    Sztuczna inteligencja użyta w systemie zostanie wytrenowana do wykrywania fałszywych sygnałów i niepodejmowania akcji wobec nich.
+	
+	R.O.P
+	
+	Rzeszów Obliteration Program
