@@ -10,22 +10,67 @@ User Stories:
 
 "Jako żołnierz chciałbym móc cieszyć się życiem i uniknąć pójścia na front dzięki ZSAD."
 
-"Moja rodzina jest szczęśliwa bo nasi wrogowie nie żyją."
+#"Moja rodzina jest szczęśliwa bo nasi wrogowie nie żyją."
+
+"Jestem odpowiedzialny za monitorowanie systemów rakietowych ale nie lubię podejmować trudnych decyzji. Chciałbym, żeby system robił to za mnie."
+
+EPIKI
+Epik 1
+	Projektowanie architektury systemu
+	-Task 1: Wymagania systemowe
+	-Task 2: Wybór technologii
+	-Task 3: Model komunikacji
+	-Task 4: System węzłów
+Epik 2
+	Implementacja zdecentralizowanej sieci komunikacyjnej
+	-Task 1: Protokół wymiany danych
+	-Task 2: Szyfrowanie i anonimizacja
+	-Task 3: Testy
+	-Task 4: Optymalizacja
+Epik 3
+	Integracja AI do analizy zagrożeń
+	-Task 1: Zdefiniowanie scenariuszy
+	-Task 2: Trenowanie AI
+	-Task 3: Mechanizmy decyzyjne
+	-Task 4: Testowanie i kalibracja
+Epik 4
+	System sterowania uzbrojeniem
+	-Task 1: Algorytmy sterowania
+	-Task 2: Integracja AI
+	-Task 3: Symulacje i testy
+	-Task 4: Weryfikacja poprawności działania
+Epik 5
+	Bezpieczeństwo systemu
+	-Task 1: Symulacje ataków
+	-Task 2: Testy infrastruktury
+	-Task 3: Testy zabezpieczeń
+	-Task 4: Dokumentacja
 
 
 Wymagania funkcjonalne:
 
-    System powinien identyfikować zagrożenia na podstawie analizy danych, przykładowo obrazów satelitarnych
-    System będzie analizował sytuacje używając sztucznej inteligencji i podejmie decyzje autonomicznie.
-    Każdy węzeł systemu będzie zawierał cząstkowy obraz sytuacji i będzie się komunikował z pozostałymi węzłami.
-    System w razie potrzeby aktywuje środki obronne.
+	System powinien identyfikować zagrożenia na podstawie analizy danych, przykładowo obrazów satelitarnych
+	System będzie analizował sytuacje używając sztucznej inteligencji i podejmie decyzje autonomicznie.
+	Każdy węzeł systemu będzie zawierał cząstkowy obraz sytuacji i będzie się komunikował z pozostałymi węzłami.
+	System w razie potrzeby aktywuje środki obronne i steruje nimi bazując na dostępnych danych.
+	System nie będzie wymagał ingerencji ludzkiej.
+
 
 Wymagania niefunkcjonalne:
 
-    Czas reakcji systemu powinien wynosić nie więcej niż 1 sekundę.
-    Komunikacja między węzłami zostanie zaszyfrowana.
-    Sztuczna inteligencja użyta w systemie zostanie wytrenowana do wykrywania fałszywych sygnałów i niepodejmowania akcji wobec nich.
+	Czas reakcji systemu powinien wynosić nie więcej niż 1 sekundę.
+	Komunikacja między węzłami zostanie zaszyfrowana.
+	Sztuczna inteligencja użyta w systemie zostanie wytrenowana do wykrywania fałszywych sygnałów i niepodejmowania akcji wobec nich.
+	Adaptacyjna analiza podejmowanych decyzji w czasie rzeczywistym
 	
+
+
+
+
+
+
+
+
 	R.O.P
 	
 	Rzeszów Obliteration Program
