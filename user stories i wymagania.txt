@@ -4,6 +4,14 @@ User Stories:
 
 "Jako analityk bezpieczeństwa chcę mieć dostęp do logów decyzji podejmowanych przez AI, aby badać potencjalne anomalie i optymalizować strategie systemu."
 
+"Jako naczelnik państwa w związku z globalną sytuacją kryzysową chciałbym zapewnić bezpieczeństwo mojemu narodowi."
+
+"Jako Jan Kowalski - Zwykły Cywil chciałbym móc cieszyć się bezpieczeństwem i wolnością."
+
+"Jako żołnierz chciałbym móc cieszyć się życiem i uniknąć pójścia na front dzięki ZSAD."
+
+"Moja rodzina jest szczęśliwa bo nasi wrogowie nie żyją."
+
 
 Wymagania funkcjonalne:
 
