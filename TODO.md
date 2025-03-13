@@ -10,3 +10,4 @@
 > 9. ~~user stories~~
 > 10. przerobić kolejność punktów w charakter systemu na Z S A D 
 > 11. User stories <- more wymagania funkcjonalne
+> 12. C4 model schemat + hex schema
