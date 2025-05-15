@@ -1,0 +1,36 @@
+
+@startuml
+title Sekwencja działania Modułu Komunikacyjnego
+
+actor "Zewnętrzny system ostrzegania" as ExternalAlert
+actor "Zewnętrzne systemy ochrony" as ExternalDefense
+participant "Moduł Komunikacyjny" as Comm
+participant "Moduł Decyzyjny" as Decision
+participant "Moduł Diagnostyczny" as Diagnostic
+participant "Moduł Zabezpieczeń" as Security
+
+== Wymiana danych wejściowych ==
+
+ExternalAlert -> Comm : Przesyła dane z radarów, satelit, czujników
+Comm -> Decision : Przekazuje przetworzone dane i instrukcje
+
+== Komunikacja między węzłami ==
+
+Comm -> Comm : Szyfruje dane (klucze sesyjne)
+Comm -> Comm : Weryfikacja tożsamości (kryptografia asymetryczna)
+Comm -> Comm : Obsługa sieci mesh (redundancja połączeń)
+
+== Diagnostyka i bezpieczeństwo ==
+
+Security -> Comm : Żądanie informacji o stanie modułu
+Comm --> Security : Raport diagnostyczny
+
+Diagnostic -> Comm : Informacje diagnostyczne o innych węzłach
+Comm --> Diagnostic : Raporty o stanie łączności
+
+== Eskalacja do systemów zewnętrznych ==
+
+Decision -> Comm : Instrukcja wykonania działań
+Comm -> ExternalDefense : Przekazanie instrukcji (np. aktywacja systemów obronnych)
+
+@enduml
